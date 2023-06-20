@@ -1,0 +1,108 @@
+body{
+  /* background-image: url("bac.jpg"); */
+  background-size: cover;
+  background-origin: content-box;
+  font-family: arial;
+  background-repeat: no-repeat;  
+  background-color:#DDE6ED;
+  /* margin: 100px;
+  border-radius: 5px; */
+}
+form{
+  top:50%;
+  left: 50%;
+  transform:translate(-50% -50%);
+  width:390px ;
+  height: 500px;
+  padding: 20px;
+  position:flex;
+  background-color: #ffffff;
+  margin: 200px;
+  border-radius: 7px;
+  /* box-shadow: 0px 1px 2px 0px ,#526D82;
+            1px 2px 4px 0px rgba(0,255,255,0.7),
+            2px 4px 8px 0px rgba(0,255,255,0.7),
+            2px 4px 16px 0px rgba(0,255,255,0.7); */
+}
+input[type="text"],input[name="password"]
+{
+  padding:10px ;
+  background:#eee ;
+  border:.5px solid #ccc;
+  width: 240px;
+  border-radius:3px;
+  border-color: #333;
+}
+input[type="submit"]{
+padding: 10px;
+  width:260px;
+  background: #444;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+input[type="submit"]{
+  background-color: #444;
+}
+lable{
+  float: left;
+  margin-left:65px ;
+  font-weight:bold;
+  opacity: .8;
+}
+
+/* .google{
+  height:auto;
+  width: 10vw;
+  background-color: #fff;
+  
+}
+
+.facebook{
+  height:auto;
+  width: 12%;
+   background-color: #fff;
+}
+.image{
+  background-color: #fff;
+ /* border-color: #817979; */
+  /* border: 1px;
+  solid #ccc;
+  
+  
+} */
+
+
+.facebook{
+  background: #fff;
+  border: 1px solid #ccc;
+  float:left;
+  margin-left:45px ;
+  border-radius:4px ;
+  width:110px;
+  
+}
+
+
+.google{
+  background: #fff;
+  border: 1px solid #ccc;
+  float: left;
+  margin-left: 63px;
+  border-radius:4px ;
+  width:110px;
+}
+img{
+  width: 35px;
+  height: auto;
+  padding: 2px;
+}
+span{
+  color: #555;
+  text-decoration: underline;
+}
+h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
